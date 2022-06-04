@@ -1,0 +1,62 @@
+*{
+    margin: 1%;
+    padding: 1%;
+}
+body{
+    background-image: url(giftmorado.gift);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button {
+    /*background-color: #dc7575;
+    max-width: 0%;
+    width: 60%;
+    margin:  10px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 30px;
+    position: static;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #9be2e9;
+    background-color: #9be2e9;*/
+    cursor: pointer;
+	opacity: 1;
+	visibility: visible;
+	background: #ffc0cb;
+	color: white;
+	border: 1px;
+	padding: 4px 10px;
+	margin: 1px;
+} 
+button:hover{
+	transform: scale(1.5);
+	background-color: #dc7575;
+}
+div h1{
+	text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+    max-width: 20%;
+    background-color: rgba(156, 204, 232, 0.738);
+    border: 10px solid;
+	padding: 30px 0;
+	line-height: 52px;
+	color: rgb(22, 16, 16);
+	margin-top: 30px;
+}
+#contenedor audio{
+    max-width: 100%;
+    width: 60%;
+    background-image: url(hearmenow.jpg);
+    margin:  20px;
+    margin-top: 100px;
+    padding: 50px;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #9be2e9;
+    background-color: #9be2e9;
+}

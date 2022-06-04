@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    /*background-color: pink;*/
+    background-image: url(original.gif);
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+table {
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #000000;
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #2d98b3;
+    border: 1px solid hsl(0, 22%, 95%);
+}
+input{
+	margin: 80px auto;
+	cursor: pointer;
+	opacity: 1;
+	visibility: visible;
+	background: #ffc0cb;
+	color: white;
+	position: relative;
+	border: 1px;
+	padding: 4px 10px;
+	margin: 1px;
+}
+button{
+    /*margin: 80px auto;*/
+    cursor: pointer;
+	opacity: 1;
+	visibility: visible;
+	background: #ffc0cb;
+	color: white;
+	border: 1px;
+	padding: 4px 10px;
+	margin: 1px;
+    text-align: center;
+}
+button:hover{
+	transform: scale(1.5);
+	background-color: rgb(235, 50, 50);
+}
+input[type = "submit"]{
+    background: rgb(91, 127, 180);
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border-radius: 17%;
+ }
+ 
+ section{
+     width: 500px;
+     height: 420px;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing: border-box;
+     padding: 70px 30px;
+     text-align: center;
+ }
+ input{
+     padding: 10px 15px;
+     margin-bottom: 10px;
+ 
+ }
+ 
+ h1{
+     text-align: center;
+ 
+ }

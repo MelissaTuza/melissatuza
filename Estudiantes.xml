@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="femenino" matriculado="no" id="6843">1104462856</cedula>
+        <nombre>Maria</nombre>
+        <apellido>Fernandez</apellido>
+        <celular>0959023466</celular>
+        <carrera>Computacion</carrera>    
+    </estudiante>
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6896">1104412216</cedula>
+        <nombre>Jairo</nombre>
+        <apellido>Cueva</apellido>
+        <celular>0980085332</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula genero="femenino" matriculado="no" id="6810">1904111164</cedula>
+        <nombre>Valeria</nombre>
+        <apellido>Velez</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6800">1104372279</cedula>
+        <nombre>Pablo</nombre>
+        <apellido>Macias</apellido>
+        <celular>0994457974</celular>    
+    </estudiante> 
+    <estudiante> 
+        <cedula genero="femenino" matriculado="si" id="6046">1104372279</cedula>
+        <nombre>Irene</nombre>
+        <apellido>Perez</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula genero="masculino" matriculado="si" id="6846">1104372279</cedula>
+        <nombre>Mario</nombre>
+        <apellido>Jara</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante>
+        <cedula genero="masculino" matriculado="si" id="6846">1104372279</cedula>
+        <nombre>Alex</nombre>
+        <apellido>Villalta</apellido>
+        <celular>0981117176</celular>  
+    </estudiante>
+    
+     
+</dbp>

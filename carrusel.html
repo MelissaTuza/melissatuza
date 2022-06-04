@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="carrusel.css">
+    <script src="carrusel.js"></script>
+    <script src="https://kit.fontawesome.com/f24b8772d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="conteItemsCarrusel">
+        <div class="itemCarrusel" id="itemCarrusel-1">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                <img src="./viernes13.jpg" alt="Los">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                </a>
+                <a href="#itemCarrusel-2">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-2">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                <img src="./mirador.jpg" alt="Loja_hermosa">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-1">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                </a>
+                <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-3">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                <img src="./happy.jpg" alt="La_felicidad.">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-2">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                </a>
+                <a href="#itemCarrusel-1">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="contePuntos">
+        <a href="#itemCarrusel-1">*</a>
+        <a href="#itemCarrusel-2">*</a>
+        <a href="#itemCarrusel-3">*</a>
+    </div>
+    <input type="submit" name="regresar" value="Regresar" onclick="pag3()">
+    <input type="submit" name="continuar" value="Index" onclick="index()">
+    
+    
+</body>
+
+</html>

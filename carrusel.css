@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.itemCarrusel{
+    height: 200%;
+    position: relative;
+}
+#conteItemsCarrusel{
+    height: 200px;
+    overflow: hidden;
+}
+.tarjetaCarrusel{
+    height: 200%;
+
+}
+.flechasCarrusel{
+    background-color: rgb(43, 43, 156, 0.3);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#tarjetaCarrusel-1{
+    background-color: rgb(126, 95, 188);
+}
+#tarjetaCarrusel-2{
+    background-color: rgb(69, 6, 194);
+}
+#tarjetaCarrusel-3{
+    background-color: rgb(78, 18, 199);
+}
+i{
+    font-size: 70px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: pink;
+}
+#contePuntos{
+    background-color: rgb(24, 17, 18);
+    display: flex;
+    justify-content: space-around;
+}
+#contePuntos{
+    font-size: 2em;
+}
+img{
+    width: 100;
+    height: 100;
+}

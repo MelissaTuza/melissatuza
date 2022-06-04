@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url(giftmorado.gift);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+	text-align: center;
+}
+.contenedor{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+	margin-top: 250px;
+}
+
+form {
+    transform: none;
+    width: 450px;
+    padding: 18px;
+    border-radius: 30px;
+    margin: auto;
+    background-color: pink;
+
+}
+form input[type="text"] {
+    width: 250px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+
+}
+form input[type="submit"] {
+
+    width: 35%;
+    padding: 10px 16px;
+    border: 1px solid rgb(185, 39, 100);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    background-color: rgb(185, 39, 100);
+
+}
+form input[type="submit"]:hover {
+    cursor: pointer;
+}

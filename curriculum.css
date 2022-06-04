@@ -1,0 +1,37 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+h2{
+    text-align: left;
+    padding: 20px;
+    
+}
+body {
+    background-image: url(original.gif);
+}
+article {
+    max-width: 100%;
+    margin:  20px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background: white;
+}
+article input[type="submit"]{ 
+    width: 100%;
+    margin: 20px;
+    cursor: pointer;
+	background-color: pink;
+	color: white;
+	border: 1px solid;
+	padding: 8px 20px;
+	
+}
+article input[type="submit"]:hover{ 
+    background-color: #000000;
+    transform: scale(1.5);
+	
+}
+
